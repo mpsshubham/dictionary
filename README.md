@@ -16,8 +16,7 @@ RESULT:
 
 splay tree >>>> red black tree >>>> avl ==== trie  (Insertion Time)
 
-(quick)                               (slower)
-(best)                                (worst)
+(quick,best)                        (slow,worst)
 
 splay tree >>>> avl ==== trie >>>> red black tree  (Searching Time)
 

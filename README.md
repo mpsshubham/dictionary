@@ -34,3 +34,6 @@ for large data:
 insert: AVL tree is faster. because you need to lookup for a particular node before insertion. as you have more data the time difference on looking up the particular node grows proportional to O(log N). but AVL tree & RB tree still only need constant number of rotation at the worst case. Thus the bottle neck will become the time you lookup for that particular node.
 
 lookup: AVL tree is faster. (same as in small data case)
+
+
+![screenshot 209](https://user-images.githubusercontent.com/16371010/35551296-71c2e524-05b4-11e8-8242-f1ad9a07d8c9.png)

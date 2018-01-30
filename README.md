@@ -7,18 +7,18 @@ A C/C++ dictionary implementation (around 5000 entries) to compare insertion and
 3)  RED BLACK tree
 4)  TRIE
 
-To run :
-download zip and compile makefile by simply typing make or makefile
+TO RUN :
+download zip and compile makefile by simply typing make or makefile,
 and then run the executable file
 
 
 RESULT:
 
-splay tree >>>> red black tree >>>> avl ==== trie  (Insertion Time)
+splay tree >>>> avl ==== trie >>>> red black tree (INSERTION TIME)
 
 (quick,best) ------------------------------------ (slow,worst)
 
-splay tree >>>> avl ==== trie >>>> red black tree  (Searching Time)
+splay tree >>>> avl ==== trie >>>> red black tree (SEARCHING TIME)
 
 
 Comparison Between Red Black Tree and AVL Tree
@@ -35,5 +35,6 @@ insert: AVL tree is faster. because you need to lookup for a particular node bef
 
 lookup: AVL tree is faster. (same as in small data case)
 
+![screenshot from 2018-01-30 18-05-03](https://user-images.githubusercontent.com/16371010/35566768-95ce2cba-05e8-11e8-8a52-0f4ca174b118.png)
 
-![screenshot 209](https://user-images.githubusercontent.com/16371010/35551296-71c2e524-05b4-11e8-8242-f1ad9a07d8c9.png)
+
